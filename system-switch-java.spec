@@ -20,6 +20,7 @@ BuildRequires: python-devel
 
 Requires: chkconfig
 Requires: libuser
+# for snack.py python module:
 Requires: newt
 Requires: pygtk2.0
 Requires: pygtk2.0-libglade
