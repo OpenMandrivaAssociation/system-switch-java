@@ -10,7 +10,6 @@ URL: ftp://sources.redhat.com/pub/rhug/
 Source0: %{name}-%{version}.tar.gz
 Patch0: %{name}-desktop.patch
 Patch1: %{name}-trailing-newlines.patch
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
 BuildRequires: desktop-file-utils
