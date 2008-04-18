@@ -4,7 +4,7 @@ Epoch: 0
 Release: %mkrel 0.1.1
 Summary: A tool for changing the default Java toolset
 
-Group: Applications/System
+Group: System/Configuration/Other
 License: GPL
 URL: ftp://sources.redhat.com/pub/rhug/
 Source0: %{name}-%{version}.tar.gz
