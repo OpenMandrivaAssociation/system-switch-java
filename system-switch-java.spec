@@ -1,14 +1,13 @@
 Name: system-switch-java
-Version: 1.1.2
+Version: 1.1.4
 Epoch: 0
-Release: %mkrel 2.1.1
+Release: %mkrel 0.1.1
 Summary: A tool for changing the default Java toolset
 
 Group: System/Configuration/Other
-License: GPL
+License: GPLv2+
 URL: ftp://sources.redhat.com/pub/rhug/
 Source0: %{name}-%{version}.tar.gz
-Patch0: %{name}-desktop.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
@@ -36,7 +35,6 @@ the default Java toolset for the system.
 
 %prep
 %setup -q
-%patch0 
 
 %build
 %{configure2_5x}
