@@ -65,3 +65,55 @@ the default Java toolset for the system.
 %{_datadir}/%{name}/system-switch-java.glade
 %config(noreplace) /etc/pam.d/%{name}
 %config(noreplace) /etc/security/console.apps/%{name}
+
+
+%changelog
+* Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 0:1.1.4-0.1.2mdv2010.0
++ Revision: 445345
+- rebuild
+
+* Mon Nov 10 2008 David Walluck <walluck@mandriva.org> 0:1.1.4-0.1.1mdv2009.1
++ Revision: 301874
+- 1.1.4
+
+* Fri Aug 08 2008 Thierry Vignaud <tvignaud@mandriva.com> 0:1.1.2-2.1.1mdv2009.0
++ Revision: 269403
+- rebuild early 2009.0 package (before pixel changes)
+
+* Fri Apr 18 2008 Alexander Kurtakov <akurtakov@mandriva.org> 0:1.1.2-0.1.1mdv2009.0
++ Revision: 195631
+- fix group
+- new version
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sat Jul 21 2007 David Walluck <walluck@mandriva.org> 0:1.1.0-3.1mdv2008.0
++ Revision: 54209
+- Import system-switch-java
+
+
+
+* Sat Jul 14 2007 Thomas Fitzsimmons <fitzsim@redhat.com> - 1.1.0-3
+- Use Fedora 8 desktop file categories.
+- Use desktop-file-install.
+- Bump release number.
+
+* Thu Jul  5 2007 Thomas Fitzsimmons <fitzsim@redhat.com> - 1.1.0-2
+- Bump release number.
+
+* Thu Jul  5 2007 Thomas Fitzsimmons <fitzsim@redhat.com> - 1.1.0-1
+- Do not use desktop-file-install.
+
+* Wed Jul  4 2007 Thomas Fitzsimmons <fitzsim@redhat.com> - 1.1.0-1
+- Add categories when installing desktop file.
+
+* Tue Jun 27 2007 Thomas Fitzsimmons <fitzsim@redhat.com> - 1.1.0-1
+- Import system-switch-java 1.1.0.
+- Merge gui subpackage into base package.
+
+* Tue Jan 23 2007 Thomas Fitzsimmons <fitzsim@redhat.com> - 1.0.0-1
+- Initial release.
