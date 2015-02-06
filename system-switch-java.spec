@@ -1,7 +1,7 @@
 Name: system-switch-java
 Version: 1.1.4
 Epoch: 0
-Release: %mkrel 0.1.2
+Release: 0.1.3
 Summary: A tool for changing the default Java toolset
 
 Group: System/Configuration/Other
