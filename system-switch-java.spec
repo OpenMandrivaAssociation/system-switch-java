@@ -11,6 +11,7 @@ Source0: %{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
+BuildRequires:	make
 BuildRequires: desktop-file-utils
 BuildRequires: gettext
 BuildRequires: intltool
